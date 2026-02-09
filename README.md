@@ -24,15 +24,16 @@
 ---
 
 ## 🚀 快速开始
-
+```
+wget -O tb_manager.sh https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh && sed -i 's/\r$//' tb_manager.sh && chmod +x tb_manager.sh && echo "alias tb='bash $(pwd)/tb_manager.sh'" >> ~/.bashrc && source ~/.bashrc && ./tb_manager.sh
+```
+输入 tb 启动
+## 🚀 分布开始
 ### 1. 一键安装与运行
 在终端中执行以下命令即可下载并启动：
 
 ```bash
-wget -O tb_manager.sh [https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh](https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh) && \
-sed -i 's/\r$//' tb_manager.sh && \
-chmod +x tb_manager.sh && \
-./tb_manager.sh
+wget -O tb_manager.sh https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh && sed -i 's/\r$//' tb_manager.sh && chmod +x tb_manager.sh && ./tb_manager.sh
 ```
 ### 2. 设置快捷指令 (推荐)
 
