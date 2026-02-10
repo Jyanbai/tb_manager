@@ -1,7 +1,7 @@
-# Traffic Balancer Evolution (v4.8) 🚀
+# Traffic Balancer Evolution (v4.5 Stealth Edition) 🚀
 
 ![Language](https://img.shields.io/badge/Language-Bash-green.svg)
-![Version](https://img.shields.io/badge/Version-4.8-blue.svg)
+![Version](https://img.shields.io/badge/Version-4.5-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-orange.svg)
 
 **Traffic Balancer (TB)** 是一款专为 Linux VPS/服务器设计的流量平衡管理工具。它通过模拟真实的下载行为，智能平衡网卡的进出流量比例（RX/TX Ratio），并具备深度伪装与抗检测特性，适合需要维护特定流量模型的场景。
