@@ -24,24 +24,15 @@
 ---
 
 ## 🚀 快速开始
+1.通用版一键运行（推荐国外服务器使用）
 ```
-wget -O tb_manager.sh https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh && sed -i 's/\r$//' tb_manager.sh && chmod +x tb_manager.sh && echo "alias tb='bash $(pwd)/tb_manager.sh'" >> ~/.bashrc && source ~/.bashrc && ./tb_manager.sh
+bash <(curl -sL https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh)
 ```
-输入 tb 启动
-## 🚀 分布开始
-### 1. 一键安装与运行
-在终端中执行以下命令即可下载并启动：
-
-```bash
-wget -O tb_manager.sh https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh && sed -i 's/\r$//' tb_manager.sh && chmod +x tb_manager.sh && ./tb_manager.sh
+2.国内加速版
 ```
-### 2. 设置快捷指令 (推荐)
-
-为了方便日后管理，建议设置 tb 为快捷命令：
-```Bash
-echo "alias tb='bash $(pwd)/tb_manager.sh'" >> ~/.bashrc && source ~/.bashrc
+bash <(curl -sL https://ghproxy.net/https://raw.githubusercontent.com/Jyanbai/tb_manager/main/tb_manager.sh)
 ```
-设置完成后，只需在终端输入 tb 即可唤出管理菜单。
+只需在终端输入 tb 即可唤出管理菜单。
 📖 使用指南
 
 启动脚本后，你将看到如下交互式菜单：
